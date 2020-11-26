@@ -63,8 +63,7 @@ rock.addEventListener('click', function(){
             __3.style.cssText = 'width: 7rem;  margin-top: -8.5rem;';
             let _rp = document.getElementsByClassName('s2')[0];
             let rp = parseInt(_rp.innerHTML, 10);
-            if (rp.innerHTML > 0){
-                _rp.innerHTML = rp - 1;};
+            _rp.innerHTML = rp - 1;
             lose.style.cssText = 'visibility: visible;';
             pa.style.cssText = 'visibility: visible;';
 
