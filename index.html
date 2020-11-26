@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class = 'container'>
+    <div class = 'game column'>
+      <div class = 'title row'>
+        <div class = 'tit'>
+          <img class = 'logo' src = 'images/logo.svg' alt = 'this'>
+        </div>
+        <div class = 'score column'>
+          <p class = 's1'>SCORE</p>
+          <p class = 's2'>0</p>
+        </div>
+      </div>
+      <div class = 'rps'>
+        <div class = 'pick row'>
+          <p class = 'pick1'>YOU PICKED</p>
+          <p class = 'pick2'>THE HOUSE PICKED</p>
+        </div>
+        <div class = 'winlose row'>
+          <p class = 'win'>YOU WIN</p>
+          <p class = 'lose'>YOU LOSE</p>
+          <a href = '#' class = 'pa'>
+            <p class = 'pap'>PLAY AGAIN</p>
+          </a>
+        </div>
+        <img class = 'rpsimg' src = 'images/bg-triangle.svg' alt = 'this'>
+        <a href = '#' class ='rocklink'><div class = 'rock'>
+          <div class = 'c1'></div>
+          <img class = 'rockimg' src = 'images/icon-rock.svg' alt = 'this'>
+        </div></a>
+        <a href='#' class='paperlink'><div class = 'paper'>
+          <div class='c2'></div>
+          <img class='paperimg' src='images/icon-paper.svg' alt='this'>
+        </div></a>
+        <a href='#' class='scissorlink'><div class = 'scissor'>
+          <div class='c3'></div>
+          <img class='scissorimg' src='images/icon-scissors.svg' alt='this'>
+        </div></a>
+      </div>
+      <div class = 'rulepage row'>
+        <div class = 'row'>
+          <p class = 'rulepr'>RULES</p>
+          <a href = '#'><img class = 'cross' src ='images/icon-close.svg' alt = 'this'></a>
+        </div>
+        <img class = 'rulepageimg' src = 'images/image-rules.svg' alt = 'this'>
+      </div>
+    </div>
+    <div class = 'rule'>
+      <a id = 'ruletouch' href = '#'><p class = 'rulep'>RULES</p></a>
+    </div>
+  </div>
+  
+</body>
+<script src="main.js"></script>
+</html>

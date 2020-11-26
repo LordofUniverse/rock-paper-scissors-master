@@ -1,0 +1,288 @@
+body {
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  font-family: "Barlow Semi Condensed";
+  font-size: 1rem;
+  font-weight: 600;
+  width: 85.375rem;
+  height: 43rem;
+  position: relative;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.game {
+  position: relative;
+  margin-left: 17.6875rem;
+  margin-top: 2rem;
+  height: 41rem;
+  width: 50rem;
+}
+
+.rule {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2rem;
+  width: 6rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.title {
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  height: 8rem;
+  width: 32rem;
+  border-radius: 10px;
+  margin-left: 9rem;
+}
+
+.tit {
+  padding: 1rem;
+  height: 3rem;
+  width: 5rem;
+}
+
+.score {
+  margin-top: 1rem;
+  margin-left: 17rem;
+  background-color: white;
+  width: 7rem;
+  height: 6rem;
+  border-radius: 10px;
+}
+
+.s1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  margin-left: 2.1rem;
+}
+
+.s2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rulep {
+  color: white;
+  margin-left: 1.7rem;
+  margin-top: 0.3rem;
+}
+
+.rps {
+  width: 32rem;
+  height: 31rem;
+  margin-left: 9rem;
+  position: relative;
+}
+
+.rulepage {
+  visibility: hidden;
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 12rem;
+  margin-left: 15rem;
+  z-index: 3;
+}
+
+.rulepageimg {
+  width: 14rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cross {
+  margin-left: 13rem;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 1.7rem;
+}
+
+.rulepr {
+  margin-left: 1.3rem;
+  margin-top: 1.3rem;
+  font-size: 1.4rem;
+}
+
+.rock {
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  top: 18rem;
+  left: 10rem;
+}
+
+.paper {
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  top: 4rem;
+  left: 1rem;
+}
+
+.scissor {
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  top: 4rem;
+  left: 20rem;
+}
+
+.rockimg {
+  position: relative;
+  margin: -6.5rem 0 5rem 3.3rem;
+  z-index: 2;
+  width: 5rem;
+}
+
+.paperimg {
+  position: relative;
+  margin: -7rem 0rem 7rem 3rem;
+  width: 5rem;
+  z-index: 2;
+}
+
+.scissorimg {
+  position: relative;
+  margin: -11rem 0 2rem 3rem;
+  z-index: 2;
+  width: 6rem;
+}
+
+.rpsimg {
+  position: relative;
+  top: 10rem;
+  height: 13rem;
+  left: 9rem;
+}
+
+.c1 {
+  top: 1rem;
+  left: 1rem;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.c2 {
+  top: 1rem;
+  left: 1rem;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.c3 {
+  top: 1rem;
+  left: 1rem;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.pick {
+  width: 40rem;
+  height: 1rem;
+}
+
+.pick1 {
+  visibility: hidden;
+  width: 5rem;
+  color: white;
+  margin-top: 5rem;
+  margin-left: -1rem;
+}
+
+.pick2 {
+  visibility: hidden;
+  margin-left: 30rem;
+  width: 9rem;
+  color: white;
+  margin-top: -2rem;
+}
+
+.winlose {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  width: 15rem;
+  height: 10rem;
+  color: white;
+}
+
+.win {
+  visibility: hidden;
+  width: 15rem;
+  height: 5rem;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-left: 3.2rem;
+}
+
+.lose {
+  visibility: hidden;
+  width: 15rem;
+  height: 5rem;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-left: 2.4rem;
+  margin-top: -3rem;
+}
+
+.pa {
+  visibility: hidden;
+  background-color: white;
+  width: 12rem;
+  height: 2.4rem;
+  margin-top: 0rem;
+  color: black;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+
+.pap {
+  margin-top: 0.5rem;
+  margin-left: 3.4rem;
+}
